@@ -1,0 +1,943 @@
+
+/*通用设置*/
+*{
+	margin:0;
+	font-family: "Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";
+}
+body,html{
+	height: 100%;
+	width: 100%;
+}
+body{
+	font-size: 62.5%;
+}
+ul>li{
+	list-style:none;
+}
+.clear:after{
+	content: " "; 
+	display: block;  
+	width: 0px;  
+	height: 0px; 					
+	clear: both; 
+	zoom:0; 
+}
+a{
+	text-decoration: none;
+}
+/*第一部分*/
+
+section.section_entry{
+	width: 100%;
+	height: 850px;
+	/*outline:1px solid red;*/
+	background: url("../images/section_entry.gif");
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	padding-top: 90px;
+}
+section.section_entry>div{
+	width: 347px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+article>b{
+	display: block;
+    width: 100%;
+    height: 3px;
+    background: url("../images/section_entry_top.jpg") 0px top repeat-x rgb(36, 41, 44);
+}
+/**************entry部分********************/
+section.section_entry>div.entry{
+	height: 240px;
+	width: 600px;
+	/*outline: 1px solid red;*/
+	margin: 0 auto;
+}
+div.entry_1{
+	width: 23%;
+	height: 100%;
+	/*outline: 1px solid green;*/
+	float: left;	
+}
+div.entry_1>div{
+	width: 100%;
+	height: 33.20%;
+	/*outline: 1px solid green;*/
+}
+div.entry_1>div>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+	line-height: 80px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    border:none;
+    text-align:center;
+}
+div.entry_1>div>a:hover{
+	background-color: rgba(255,255,255,0.6);
+	color: #3B89B9;
+}
+div.entry_1>div>a:active{
+	background-color: #fff;
+	color: #3B89B9;
+}
+div.entry_2{
+	width: 77%;
+	height: 100%;
+	/*outline: 1px solid yellow;*/
+	float: left;
+	background: #fff;
+}
+div.entry_2>div{
+	float: left;
+}
+
+div.entry_2>div:nth-child(1){
+	width: 55%;
+	height: 100%;
+	/*outline: 1px solid blue;*/
+}
+div.entry_2>div:nth-child(2){
+	width: 8%;
+	height: 100%;
+	/*outline: 1px solid red;*/
+}
+
+a#ff2,a#ff3{
+	border-top: 1px solid #D7D7D7;
+}
+a#ff2{
+	background-color: #fff;
+	color: #3B89B9;
+}
+
+
+div.entry_2>div:nth-child(3){
+	width: 37%;
+	height: 100%;
+	/*outline: 1px solid blue;*/
+
+}
+div.entry_2>div>div{
+	padding-top: 16px;
+	margin-left: 25px;
+}
+div.entry_2>div>div:nth-child(1)>*{
+	float: left;
+	margin-top: 20px;
+}
+
+div.entry_2>div>div:nth-child(1)>input:nth-child(1){
+	height: 33px;
+	width: 83px;
+	border:1px solid #CCCCCC;
+	border-radius: 5px;
+}
+div.entry_2>div>div:nth-child(1)>input:nth-child(2){
+	height: 33px;
+	width: 135px;
+	border:1px solid #CCCCCC;
+	border-radius: 5px;
+}
+div.entry_2>div>div:nth-child(2)>input{
+	height: 33px;
+	width: 220px;
+	border:1px solid #CCCCCC;
+	border-radius: 5px;
+}
+div.entry_2>div>div:nth-child(3){
+	color: #636363;
+	font-size: 14px;
+}
+
+div.entry_2>div>div:nth-child(3)>a{
+	color: #a7a7a7;
+	font-size: 14px;
+	margin-left: 78px;
+}
+div.entry_2>div>div:nth-child(4)>a>button{
+	height: 33px;
+	width: 220px;
+	border:1px solid #990911;
+	border-radius: 5px;
+	background-color: #B10A14;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	line-height: 25px;
+	outline: none;
+}
+div.entry_2>div>div:nth-child(4)>a>button:hover{
+	background-color: #81070F;
+}
+div.entry_2>div>div:nth-child(4)>a>button:active{
+	background-color: #81070F;
+	outline: 1px solid #A6C8FF;
+}
+div.entry_2>div:nth-child(2)>b{
+	display: block;
+	border-left: 1px solid #918C8A;
+	height: 80px;
+	width: 0;
+	margin-left: 17px;
+}
+div.entry_2>div:nth-child(2)>b:nth-child(1){
+	margin-top: 20px;
+}
+
+div.entry_2>div:nth-child(2)>h5{
+	line-height: 32px;
+	color: #868686;
+	font-size: 14px;
+	font-weight: normal;
+	text-align: center;
+}
+div.entry_2>div:nth-child(3)>a{
+	display: block;
+	float: left;
+	margin-left: 20px;
+	margin-top: 8px;
+}
+div.entry_2>div:nth-child(3)>a>img{
+    width: 50px;
+    height: 50px;
+}
+
+div.entry_2>div:nth-child(3)>div{
+	line-height: 55px;
+    background: #fff;    
+    color: #868686;    
+    font-size: 14px;
+    margin-left: 45px;  
+}
+div.entry_2{
+	position: relative;
+}
+div.entry_2>div:nth-child(4)>img{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+/********section_1,2,3,4部分************/
+
+section.section_1{
+	width: 100%;
+	height: 900px;
+	/*outline:1px solid red;*/
+	position: relative;
+}
+
+section.section_1>div.title>h2{
+    color: #2296f3;
+    font-size: 30px;
+    font-weight: normal;
+}
+section.section_1>div.title>h3{
+	line-height: 1.5;
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 20px;
+    color: #77776B;
+
+}
+section.section_1>div.title>p{
+	font-size: 17px;
+	line-height: 25px;
+    margin-top: 10px;
+	color: #818176;
+}
+div.phone{
+	position: relative;
+}
+div.phone{
+	width: 223px;
+	height: 450px;
+	background: url(../images/phone_bg.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+div.phone>div{
+	position: absolute;
+	top: 48px;
+	left: 10px;
+}
+
+section.section_1>div.phone,
+section.section_1>div.pc,
+section.section_1>div.title{
+	opacity: 0;
+}
+
+div.pc{
+	width: 730px;
+	height: 406px;
+	background: url(../images/pc_bg.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	position: relative;
+}
+div.pc>div{
+	position: absolute;
+	top: 25px;
+	left: 88px;
+}
+/*pc,phone的背景图动画*/
+div.pc>div>div{
+	width: 553px;
+	height: 322px;
+	animation: pc_move 8s linear infinite;
+}
+div.phone>div>div{
+	width: 200px;
+	height: 350px;
+	animation: phone_move  8s linear infinite;
+}
+@keyframes pc_move {
+	0% { background: url(../images/pc.png) no-repeat;
+		background-position: 0 0;}	
+	32% { background: url(../images/pc.png) no-repeat;
+		background-position: 0 0;}	
+	35% { background: url(../images/pc.png) no-repeat;
+		background-position: -1118px 0;}	
+	67% { background: url(../images/pc.png) no-repeat;
+		background-position: -1118px 0;}	
+	70% { background: url(../images/pc.png) no-repeat;
+		background-position: -2220px 0;}
+	100% { background: url(../images/pc.png) no-repeat;
+	 	background-position: -2220px 0;
+	 	}
+}
+@keyframes phone_move {
+	0% { background: url(../images/iphone_page.png) no-repeat;
+		background-position: 0 0;}	
+	32% { background: url(../images/iphone_page.png) no-repeat;
+		background-position: 0 0;}	
+	35% { background: url(../images/iphone_page.png) no-repeat;
+		background-position: -400px 0;}	
+	67% { background: url(../images/iphone_page.png) no-repeat;
+		background-position: -400px 0;}	
+	70% { background: url(../images/iphone_page.png) no-repeat;
+		background-position: -800px 0;}
+	100% { background: url(../images/iphone_page.png) no-repeat;
+	 	background-position: -800px 0;
+	 	}
+}
+/*文字动画*/
+@keyframes move_tittle {
+	0%{
+	position: absolute;
+	top: 728px;
+	left: 700px;
+	opacity: 0;
+	}	
+	100%{
+	position: absolute;
+	top: 31.5%;
+	left: 9%;
+	opacity: 1;
+	}
+}
+/*pc,phone的动画*/
+@keyframes pc_move_1 {
+	0%{
+	position: absolute;
+	top:140px;
+	left: 1440px;
+	opacity: 0;
+
+
+	}
+	100%{
+	position: absolute;
+	top:140px;
+	left: 640px;
+	opacity: 1;
+	}
+}
+@keyframes phone_move_1 {
+	0%{
+		position: absolute;
+		top:600px;
+		left: 200px;
+		opacity: 0;
+		z-index: 2;
+	}
+	100%{
+		position: absolute;
+		top:220px;
+		left: 550px;
+		z-index: 2;
+		opacity: 1;
+	}
+}
+/*动画的引用*/
+#section_1:hover>div.phone{
+	position: absolute;
+	top:220px;
+	left: 550px;
+	z-index: 2;
+	animation: phone_move_1 4s  linear both;
+}
+#section_1:hover>div.pc{
+	position: absolute;
+	top:140px;
+	left: 640px;
+	animation: pc_move_1 4s linear both;
+}
+#section_1:hover>div.title{
+	position: absolute;
+	top: 31.5%;
+	left: 9%;
+	animation: move_tittle 4s  linear both;
+}
+
+
+
+section.section_2{
+	height: 900px;
+	position: relative;
+	top: 900px;
+	/*outline: 1px solid green;*/
+	background:  #FFFEBB url(../images/section_bg.jpg) no-repeat;
+	background-position: 0 -30px;
+	background-size: 100% 100%;
+}	
+
+section.section_2>div.title>h2{
+    color: #e60012;
+    font-size: 30px;
+    font-weight: normal;
+}
+section.section_2>div.title>h3{
+	line-height: 1.5;
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 20px;
+    color: #77776B;
+
+}
+section.section_2>div.title>p{
+	font-size: 17px;
+	line-height: 25px;
+    margin-top: 10px;
+	color: #818176;
+}
+section.section_2>div.title{
+	opacity: 0;
+}
+
+section.section_2:hover>div.title{
+animation: section_2_move 3s linear both;
+
+}
+
+section.section_2:hover>div.title>p{
+	animation: section_2_move_p 4s linear both;
+}
+
+section.section_1:hover>div.title>p{
+	animation: section_2_move_p 3s linear both 1s;
+}
+
+
+section.section_2:hover{
+	animation: section_2_move_bg 3s linear both 1s;
+}
+
+
+@keyframes section_2_move {
+	from { 
+	position: absolute;
+	top: 300px;
+	left: 500px;
+	opacity: 0;
+	 }
+	to {  
+		position: absolute;
+	top: 250px;
+	left: 125px;
+opacity: 1;}
+}
+@keyframes section_2_move_p {
+	from { 
+	font-size: 8px;
+	opacity: 0;
+
+	 }
+	to {  
+	font-size: 16px;
+	opacity: 0.7;
+	}
+}
+@keyframes section_2_move_bg {
+	from { 
+	background-position: 0 -30px;
+	 }
+	to {  
+		background-position: 0 0;
+	}
+}
+section.section_3{
+	height: 900px;
+	position: relative;
+	top: 900px;
+	/*outline: 1px solid green;*/
+	background-color: black;
+}
+
+section.section_3>div.title>h2{
+    color: #f8b62b;
+    font-size: 30px;
+    font-weight: normal;
+}
+section.section_3>div.title>h3{
+	line-height: 1.5;
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 20px;
+    color: #fff;
+
+}
+section.section_3>div.title>p{
+	font-size: 16px;
+	line-height: 25px;
+    margin-top: 10px;
+	color: #fff;
+}
+section.section_3>div.title{
+	position: absolute;
+	top: 230px;
+	left: 130px;
+	opacity: 0;
+}
+
+
+div.section_3_move>div{
+	height: 315px;
+	width: 315px;
+	/*background-color: silver;*/
+}
+div.section_3_move>div#move-1{
+	/*outline: 1px solid red;*/
+
+	background-image: url(../images/move-1.png);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	opacity: 0;
+}
+div.section_3_move>div#move-2{
+	/*outline: 1px solid red;*/
+
+	background-image: url(../images/move-2.png);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-size: 100% 100%;
+	opacity: 0;
+
+}
+
+div.section_3_move>div#move-3{
+	background-image: url(../images/move-3.png);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	/*outline: 1px solid green;*/
+	opacity: 0;
+
+}
+div.section_3_move>div#move-4{
+	/*outline: 1px solid yellow;*/
+
+	background-image: url(../images/move-8.png);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	opacity: 0;
+
+}
+div.section_3_move>div#move-5{
+	/*outline: 1px solid yellow;*/
+
+	background-image: url(../images/move-7.png);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	opacity: 0;
+
+}
+div.section_3_move>div#move-6{
+	/*outline: 1px solid yellow;*/
+
+	background-image: url(../images/move-4.png);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	opacity: 0;
+
+}
+div.section_3_move>div#move-7{
+	/*outline: 1px solid yellow;*/
+
+	background-image: url(../images/move-5.png);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	opacity: 0;
+
+}
+div.section_3_move>div#move-8{
+	/*outline: 1px solid yellow;*/
+
+	background-image: url(../images/move-6.png);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	opacity: 0;
+
+
+}
+div.section_3_move>div#move-9{
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	left: 771px;
+	top: -90px;
+	background-image: url(../images/move-9.png);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	/*animation: move-9 3s linear both;*/
+	opacity: 0;
+
+}
+
+section.section_3:hover>div.title{
+animation: section_2_move 3s linear both 2s;
+
+}
+
+section.section_3:hover>div.title>p{
+	animation: section_2_move_p 3.5s linear both 2s;
+}
+
+section.section_3:hover div#move-9{
+	animation: move-9 5s linear both;
+
+}
+
+section.section_3:hover div#move-8{
+	animation: move-8 3s linear both 2s;
+
+}
+
+section.section_3:hover div#move-7{
+	animation: move-7 3s linear both 2s;
+
+}
+
+section.section_3:hover div#move-6{
+	animation: move-6 3s linear both 2s;
+
+}
+
+section.section_3:hover div#move-5{
+	animation: move-5 3s linear both 2s;
+
+}
+
+section.section_3:hover div#move-4{
+	animation: move-4 3s linear both 2s;
+
+}
+
+section.section_3:hover div#move-3{
+	animation: move-3 3s linear both 2s;
+
+}
+
+section.section_3:hover div#move-2{
+	animation: move-2 3s linear both 2s;
+
+}
+
+section.section_3:hover div#move-1{
+	animation: move-1 3s linear both 2s;
+
+}
+@keyframes move-1 {
+	from { 
+
+	position: absolute;
+	left: 375px;
+	top: 900px;
+	opacity: 1;
+	}
+	to { 	
+	position: absolute;
+	left: 375px;
+	top: -165px; 
+	opacity: 1;
+
+	}
+}
+@keyframes move-2 {
+	from { 
+	position: absolute;
+	left: 375px;
+	top: 900px;
+	opacity: 1;
+
+	}
+	to { 	
+	position: absolute;
+	left: 1030px;
+	top: -165px;
+	opacity: 1;
+
+	}
+}
+@keyframes move-3 {
+	from { 
+	position: absolute;
+	left: 0;
+	top: 900px;
+	opacity: 1;
+
+	}
+	to { 	
+	position: absolute;
+	left: 682px;
+	top: 150px;
+	opacity: 1;
+
+	}
+}
+@keyframes move-4 {
+	from { 
+	position: absolute;
+	left: 1500px;
+	top: 100px;
+	opacity: 1;
+
+	}
+	to { 	
+		position: absolute;
+	left: 1189px;
+	opacity: 1;
+	top: 6px;
+	}
+}
+@keyframes move-5 {
+	from { 
+	position: absolute;
+	left: 1500px;
+	top: 100px;
+	opacity: 1;
+
+	}
+	to { 	
+	position: absolute;
+	left: 1015px;
+	opacity: 1;
+	top: 167px;
+	}
+}@keyframes move-6 {
+	from { 
+	position: absolute;
+	left: 1500px;
+	top: 100px;
+	opacity: 1;
+
+	}
+	to { 	
+	position: absolute;
+	left: 842px;
+	opacity: 1;
+	top: 325px;
+	}
+}@keyframes move-7 {
+	from { 
+	position: absolute;
+	left: 1500px;
+	top: 100px;
+	opacity: 1;
+
+	}
+	to { 	
+	position: absolute;
+	left: 665px;
+	opacity: 1;
+	top: 482px;
+	}
+}
+@keyframes move-8 {
+	from { 
+	position: absolute;
+	left: 1500px;
+	top: 100px;
+	opacity: 1;
+
+	}
+	to { 	
+	position: absolute;
+	left: 502px;
+	opacity: 1;
+	top: 640px;
+	}
+}
+@keyframes move-9 {
+	0%{ 
+	position: absolute;
+	left: 771px;
+	top: -90px;
+	opacity: 0;
+	}
+	40%{
+	position: absolute;
+	left: 771px;
+	top: -90px;
+	opacity: 1;
+	}
+	70%{
+	position: absolute;
+	left: 771px;
+	top: -90px;
+	opacity: 0;
+	}
+	100% { 	
+	position: absolute;
+	left: 988px;
+	top: 340px;
+	opacity: 1;
+	}
+}
+section.section_4{
+	height: 800px;
+	position: relative;
+	top: 900px;
+	background:url(../images/section_4_bg.jpg) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+
+section.section_4>div.button>h1{
+	font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+section.section_4>div.button>div>img{
+	display: block;margin: 0 auto;
+}
+section.section_4>div.button>div{
+	width: 157px;
+	margin: 20px auto;
+
+}
+section.section_4>div.button>a>button{
+	width: 160px;
+	color: #ffffff;
+	padding: 10px 16px;
+    font-size: 18px;
+    border:none;
+    border-radius: 7px;
+    background-color: rgba(255,255,255,0.5);
+    outline: none;
+}
+section.section_4>div.button>a>button:hover{
+	outline:2px solid #8DB0E0;
+}
+section.section_4>div.button>a>button:active{
+	outline:2px solid #8DB0E0;
+}
+section.section_4>div.button>a{
+	display: block;
+	width: 160px;
+    margin: 50px auto;
+}
+section.section_4>div.button{
+	opacity: 0;
+}
+section.section_4:hover>div.button{
+	animation: move_button 3s linear both;
+}
+
+@keyframes move_button {
+	from { 
+		padding-top: 570px;
+		opacity: 0;
+	 }
+	to { padding-top: 270px; 
+		opacity: 1;
+	}
+}
+
+
+section.section_4:hover>div.button>div>img{
+	animation: move_button_img 3s linear both;
+
+}
+
+@keyframes move_button_img {
+	from { 
+		width: 100px;
+	 }
+	to {
+		width: 157px;
+	}
+}
+div.footer{
+	height: 80px;
+	width: 100%;
+	background-color: #b2b2b2;
+	position: absolute;
+	bottom: 0;
+	padding-top: 20px;
+}
+div.footer>span:first-child>b{
+	font-weight: none;
+}
+div.footer>span:first-child>*{
+	float: left;
+}
+div.footer>span:first-child{
+	display: block;
+	width: 500px;
+	margin: 0 auto;
+}
+div.footer a{
+	color: #616161;
+
+}
+div.footer>span{
+	color: #616161;
+	font-size: 14px;
+}
+div.footer>span:last-child{
+	display: block;
+	width: 326px;
+	margin: 0 auto;
+	margin-top: 18px;
+}
+div.footer{
+	width: 100%;
+	height:80px; 
+	background-color: #b2b2b2;
+	position: absolute;
+	bottom: 0;
+	padding-top: 20px;
+	opacity: 0;
+	z-index: 5;
+}
+section.section_4:hover>div.footer{
+	animation: move_footer_2 3s linear both;
+}
+@keyframes move_footer_2 {
+	from {  
+		height: 0;
+		opacity: 0;
+	}
+	to { 
+		height:80px; 
+		opacity:1;
+	 }
+}
